@@ -13,4 +13,5 @@ data class CoinDetail(
     val tags: List<Tag>,
     val team: List<TeamMember>,
     val type: String,
+    val hashAlgorithm: String,
 )

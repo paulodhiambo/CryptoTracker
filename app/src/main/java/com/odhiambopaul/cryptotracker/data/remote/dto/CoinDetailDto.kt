@@ -39,6 +39,8 @@ fun CoinDetailDto.toCoinDetail(): CoinDetail {
         symbol = symbol,
         tags = tags,
         team = team,
-        type = type
+        type = type,
+        hashAlgorithm = hash_algorithm
+
     )
 }
